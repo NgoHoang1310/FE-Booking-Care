@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa4c2b78.chunk.css",
+    "main.js": "/static/js/main.c587c160.chunk.js",
+    "main.js.map": "/static/js/main.c587c160.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec662c43.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec662c43.js.map",
+    "static/css/2.9ceb9f6e.chunk.css": "/static/css/2.9ceb9f6e.chunk.css",
+    "static/js/2.abdfe52d.chunk.js": "/static/js/2.abdfe52d.chunk.js",
+    "static/js/2.abdfe52d.chunk.js.map": "/static/js/2.abdfe52d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9ceb9f6e.chunk.css.map": "/static/css/2.9ceb9f6e.chunk.css.map",
+    "static/css/main.fa4c2b78.chunk.css.map": "/static/css/main.fa4c2b78.chunk.css.map",
+    "static/js/2.abdfe52d.chunk.js.LICENSE.txt": "/static/js/2.abdfe52d.chunk.js.LICENSE.txt",
+    "static/media/slider.scss": "/static/media/doctor-nurse.68b035ae.jpg",
+    "static/media/homeHeader.scss": "/static/media/bookingcare-cover-4.827fd54e.jpg",
+    "static/media/styles.scss": "/static/media/fa-solid-900.d279d01b.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec662c43.js",
+    "static/css/2.9ceb9f6e.chunk.css",
+    "static/js/2.abdfe52d.chunk.js",
+    "static/css/main.fa4c2b78.chunk.css",
+    "static/js/main.c587c160.chunk.js"
+  ]
+}
