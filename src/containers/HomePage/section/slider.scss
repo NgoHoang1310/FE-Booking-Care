@@ -1,0 +1,151 @@
+.background-dark {
+    background-color: #f5f5f5 !important;
+}
+
+
+.circle-img {
+    border-radius: 50% !important;
+    width: 160px !important;
+    height: 160px !important;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.specialty-img {
+    background-image: url(../../../assets/specialty/112457-co-xuong-khop.jpg);
+}
+
+.health-facility-img {
+    background-image: url(../../../assets/facilities/choray.jpg);
+}
+
+.doctor-img {
+    background-image: url(../../../assets/doctor/doctor-nurse.jpg);
+}
+
+
+
+.col-2 {
+    width: 50% !important;
+}
+
+.height-about {
+    height: 400px !important;
+}
+
+.section {
+    width: 100%;
+    height: 330px;
+    box-shadow: 0 0 1px #ccc;
+
+    .section-container {
+        width: 65%;
+        margin: 0 auto;
+        padding: 24px 0;
+
+
+        .silder-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .slider-more-btn {
+                padding: 8px 10px;
+                background-color: #ebebeb;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: #282e41;
+                }
+
+                &:hover,
+                &:hover a {
+                    background-color: #f7d800;
+                    color: white;
+                }
+            }
+        }
+
+        .slider-title {
+            padding: 8px 0;
+            font-weight: 600;
+        }
+
+        .section-content {
+            margin: 0 -8px;
+
+            .slick-disabled {
+                display: none !important;
+            }
+
+            .slick-slider {
+                height: 100%;
+            }
+
+            //reset css slick-arrow
+            .slick-arrow {
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                color: black !important;
+                background-color: rgba(255, 255, 255, 0.8);
+
+            }
+
+            .slick-arrow::before {
+                color: black;
+            }
+
+            .list-item {
+                width: 25%;
+                padding: 4px 4px;
+                cursor: pointer;
+
+                .list-item__doctorInfo {
+                    box-sizing: border-box;
+                    padding: 4px 0;
+                }
+
+                a {
+                    width: 100%;
+                    text-align: center;
+                    color: black;
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #535353;
+
+
+                    &:hover {
+                        color: #4dc5d3;
+                    }
+                }
+
+                .img-container {
+                    width: 100%;
+                    padding-top: 56%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 8px;
+                    background-position: center;
+                    border: 1px solid rgb(241, 241, 241);
+                }
+
+                .list-item_main {
+                    width: 100%;
+
+                    .video-about {
+                        height: 350px;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

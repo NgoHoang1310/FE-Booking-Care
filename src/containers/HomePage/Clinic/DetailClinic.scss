@@ -1,0 +1,107 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     // box-sizing: border-box;
+// }
+
+.clinic-container {
+
+    .clinic-banner {
+        position: relative;
+        background-image: url('https://cdn.bookingcare.vn/fo/w1920/2020/05/29/112414-pk-dhyd1.jpg');
+        width: 100%;
+        padding-top: 25%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 20px;
+
+        // height: ;
+
+        .clinic-header {
+            display: flex;
+            width: 1200px;
+            background-color: rgba(255, 255, 255, 0.8);
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px 0;
+            box-shadow: 0 0 3px #ccc;
+
+            .clinic-header__image {
+                width: 100px;
+                margin: 4px 8px;
+                object-fit: fill;
+            }
+
+            .clinic-header__content {
+                margin-left: 8px;
+
+                .clinic-header__content--name {}
+
+                .clinic-header__content--address {}
+            }
+        }
+    }
+
+    .clinic-wrapper {
+        width: 1200px;
+        margin: auto;
+
+        .clinic-wrapper__introduction {
+            margin-top: 80px;
+            font-size: 16px;
+            padding: 8px 16px;
+            background-color: #ffecb2;
+
+        }
+
+        .clinic-wrapper__description {
+            margin-top: 16px;
+            font-size: 16px;
+            padding: 8px 16px;
+            background-color: #d4effc;
+        }
+
+        .clinic-wrapper__detail {
+            margin-top: 20px;
+
+            .clinic-wrapper__detail--heading {
+                padding: 32px 0 8px 0;
+                text-transform: uppercase;
+                color: #337ab7;
+                font-weight: 600;
+            }
+        }
+
+        .clinic-wrapper__doctor {
+            .clinic-wrapper__doctor--heading {
+                padding: 32px 0 8px 0;
+                text-transform: uppercase;
+                color: #337ab7;
+                font-weight: 600;
+            }
+
+            .clinic-doctor {
+                display: flex;
+                max-width: 1200px;
+                margin-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                padding: 0 16px;
+                border-radius: 10px;
+
+                .clinic-doctor__profile {
+                    width: 60%;
+                    margin-top: 10px;
+                }
+
+                .clinic-doctor__schedule {
+                    margin-left: 8px;
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

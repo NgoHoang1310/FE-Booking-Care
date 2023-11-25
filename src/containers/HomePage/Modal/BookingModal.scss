@@ -1,0 +1,62 @@
+.booking-modal__heading {
+    background-color: #33b0e3 !important;
+    text-align: center !important;
+    margin: 0;
+
+}
+
+.pre-icon {
+    display: inline-block;
+    width: 20px;
+}
+
+.booking-modal__input {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.btn-cancel {
+    background-color: #ccc !important;
+    padding: 0 4px;
+}
+
+.btn-confirm {
+    background-color: #ffc419 !important;
+    padding: 0 4px;
+}
+
+
+
+.booking-modal__price {
+    background-color: #f6f6f6;
+    padding: 8px;
+    border-radius: 5px;
+
+    .booking-modal__price--exam {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .booking-modal__price--fee {
+        display: flex;
+        justify-content: space-between;
+        margin: 4px 0;
+
+        .fee {
+            color: #26aa99;
+        }
+    }
+
+    .booking-modal__price--total {
+        padding-top: 8px;
+        border-top: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+
+        .total {
+            color: rgb(254, 56, 52);
+        }
+    }
+}

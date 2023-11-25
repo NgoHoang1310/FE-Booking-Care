@@ -1,0 +1,217 @@
+.specialist-examination {
+    background-image: url(../../assets/images/161905-iconkham-chuyen-khoa.png);
+}
+
+.remote-examination {
+    background-image: url(../../assets/images/161817-iconkham-tu-xa.png);
+}
+
+.general-examination {
+    background-image: url(../../assets/images/161350-iconkham-tong-quan.png);
+}
+
+.medical-tests {
+    background-image: url(../../assets/images/161340-iconxet-nghiem-y-hoc.png);
+}
+
+.mental-health {
+    background-image: url(../../assets/images/161403-iconsuc-khoe-tinh-than.png);
+}
+
+.dental-examination {
+    background-image: url(../../assets/images/161410-iconkham-nha-khoa.png);
+}
+
+.surgical-package {
+    background-image: url(../../assets/images/161421-icongoi-phau-thuat.png);
+}
+
+.Live-healthy-with-diabetes {
+    background-image: url(../../assets/images/145536-thiet-ke-chua-co-ten-4.png);
+}
+
+.health-test {
+    background-image: url(../../assets/images/161442-iconbai-test-suc-khoe2.png);
+}
+
+.medical-near-you {
+    background-image: url(../../assets/images/163421-153524-near-home-01.png);
+}
+
+.active {
+    color: red;
+    opacity: 1 !important;
+}
+
+.homeHeader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 1px #ccc;
+}
+
+.homeHeader-content {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .homeHeader-logo {
+        width: 20%;
+        margin-top: 16px;
+
+        span {
+            margin-right: 6px;
+            font-size: 20px;
+        }
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .homeHeader-nav_list {
+        width: 60%;
+        font-size: 12px;
+        display: flex;
+        margin: 0 12px;
+        justify-content: space-around;
+        align-items: center;
+
+        .homeHeader-nav_item {
+            margin: 12px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .homeHeader-support {
+        width: 20%;
+        padding-left: 10%;
+        margin-top: 16px;
+        color: #4dc5d3;
+        text-align: center;
+
+        .homeHeader-support_icon {
+            font-size: 18px;
+        }
+
+        .language__vi,
+        .language__en {
+            opacity: 0.5;
+        }
+
+
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.homeHeader-banner {
+    background-image: url("../../assets/images/bookingcare-cover-4.jpg");
+    padding-top: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+
+
+    position: relative;
+
+    .homeHeader-banner_layer {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .homeHeader-banner_container {
+        margin-top: 150px;
+        text-align: center;
+        font-weight: 600;
+
+        .homeHeader-banner_title {
+            color: white;
+            text-shadow: 1px 1px 1px #333;
+
+        }
+
+        .homeHeader-banner_search {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 20%;
+            margin-top: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            background-color: #f7d800;
+
+            i {
+                font-size: 18px;
+                padding: 12px;
+            }
+
+            .homeHeader-banner_search__input {
+                outline: none;
+                border: none;
+                height: 40px;
+                background-color: transparent;
+                flex: 1;
+            }
+        }
+
+    }
+
+    .homeHeader-banner_options {
+        position: absolute;
+        // max-width: 1600px;
+        width: 100%;
+        bottom: 0;
+        margin-top: 15%;
+        background: linear-gradient(transparent, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+
+        .homeHeader-banner_options__list {
+            display: flex;
+            justify-content: space-evenly;
+
+            .homeHeader-banner_options__item {
+
+
+                .homeHeader-banner_options__item--icon {
+                    width: 50px;
+                    height: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 1px #333;
+                    background-repeat: no-repeat;
+                    background-size: 30px;
+                    background-position: center;
+                    margin-bottom: 4px;
+                }
+
+                .homeHeader-banner_options__item--title {
+                    text-decoration: none;
+                    color: #333;
+                    text-align: center;
+                }
+
+                .homeHeader-banner_options__item--title:hover {
+                    color: #4dc5d3;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

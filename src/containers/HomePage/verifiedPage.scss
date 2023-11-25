@@ -1,0 +1,15 @@
+.verify-container {
+    margin-top: 150px;
+
+    .verify-heading {
+        text-align: center;
+    }
+
+    .verify-heading__error {
+        color: red;
+    }
+
+    .verify-heading__success {
+        color: #26aa99;
+    }
+}

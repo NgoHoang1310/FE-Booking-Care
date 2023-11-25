@@ -1,0 +1,46 @@
+.manage-doctor {
+    margin: 8px;
+
+    .manage-doctor__title {
+        padding: 8px;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .manage-doctor__wrapper {
+        display: flex;
+
+        .manage-doctor__optional {
+            width: 50%;
+
+            .manage-doctor__optional--input{
+                width: 50%;
+            }
+        }
+
+        .manage-doctor__info {
+            width: 50%;
+
+            textarea {
+                width: 100%;
+                min-height: 150px;
+            }
+        }
+    }
+
+    .manage-doctor__editor {}
+
+    .manage-doctor__save {
+        color: white;
+        margin: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all ease-in .125s;
+
+        &:hover {
+            background-color: rgb(0, 140, 255);
+        }
+    }
+}

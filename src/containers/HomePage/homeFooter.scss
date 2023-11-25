@@ -1,0 +1,17 @@
+.homeFooter {
+    height: 70px;
+    background-color: #64b9e5;
+    color: white;
+    position: relative;
+    // top: 100%;
+
+
+    .homeFooter-content {
+        width: 65%;
+        margin: 0 auto;
+
+        p {
+            padding-top: 10px;
+        }
+    }
+}

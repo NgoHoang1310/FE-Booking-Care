@@ -1,0 +1,65 @@
+.detail-doctor-container {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+
+    .doctor-introduction {
+        display: flex;
+        flex-wrap: wrap;
+
+        .detail-doctor__image {
+            flex: 1;
+            background-image: url(https://cdn.bookingcare.vn/fr/w200/2020/03/17/114430-bshung.jpg);
+            padding-top: 12.5%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+        .detail-doctor__introduce {
+            display: flex;
+            flex-direction: column;
+            flex: 7;
+            margin-left: 16px;
+
+            .detail-doctor__introduce--name {
+                font-weight: 600;
+
+            }
+
+            .detail-doctor__introduce--profile {
+                color: #555555;
+                flex-grow: 2;
+                flex-wrap: wrap;
+            }
+
+            .detail-doctor__introduce--interact {
+
+                .btn-like,
+                .btn-share {
+                    margin: 4px;
+                    border-radius: 5px;
+                    border: none;
+
+                }
+            }
+        }
+
+
+    }
+
+    .container-schedule {
+        display: flex;
+        width: 100%;
+
+        .left-content {
+            width: 55%;
+        }
+
+        .right-content {
+            width: 45%;
+        }
+    }
+}

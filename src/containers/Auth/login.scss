@@ -1,0 +1,65 @@
+.login-background{
+    height: 100vh;
+    background-color: #FBE8BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-container{
+        color: white;
+        width: 400px;
+        height: 600px;
+        background-color: #87ACD9;
+        border-radius: 15px;
+        
+        .mb-3{
+            position: relative;
+
+            .hide-password{
+                color: #ccc;
+                position: absolute;
+                top: 55%;
+                right: 8px;
+                cursor: pointer;
+
+            }
+        }
+
+        .login-btn{
+            width: 100%;
+            border: none;
+            border-radius: 20px;
+            background-color: #FBE8BD;
+            
+        }
+
+        .login-social{
+            margin-top: 8px;
+            display: flex;
+            justify-content: center;
+            .google{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                background-color: red;
+                border-radius: 50%;
+                margin-right: 4px;
+            }
+
+            .facebook{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                background-color: rgb(44, 41, 224);
+                border-radius: 50%;
+                margin-left: 4px;
+            }
+        }
+    }
+}
+
+

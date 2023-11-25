@@ -1,0 +1,167 @@
+{
+    "homeHeader": {
+        "specialist": "Specialist",
+        "findDoctorsBySpecialty": "Find doctors by specialty",
+        "healthFacilities": "Health facilities",
+        "clinic": "Health facilities",
+        "doctors": "Doctors",
+        "greatestDoctor": "Choose a good doctor",
+        "examinationPackage": "Examination package",
+        "generalHealth": "General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "banner": {
+        "title1": "MEDICAL FOUNDATION",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "inputPlaceHolder": "search doctor"
+    },
+    "options": {
+        "specialist1": "Specialized ",
+        "specialist2": "examination",
+        "remoteExamination1": "Remote  ",
+        "remoteExamination2": "examination",
+        "generalExamination1": "General ",
+        "generalExamination2": "examination",
+        "medicalTests1": "Test ",
+        "medicalTests2": "medicine",
+        "mentalHealth1": "Mental ",
+        "mentalHealth2": "health",
+        "dentist1": "Examination",
+        "dentist2": "dentistry",
+        "examinationPackage1": "Package",
+        "examinationPackage2": "surgery",
+        "diabetes1": "Live Strong",
+        "diabetes2": "diabetes",
+        "healthTest1": "Test",
+        "healthTest2": "health",
+        "nearHome1": "Medical",
+        "nearHome2": "close to you"
+    },
+    "common": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "decentralize": "Decentralize",
+        "close": "Close",
+        "save": "Save",
+        "refresh": "Refresh",
+        "accept": "Accept",
+        "confirm": "Confirm",
+        "confirm-this-task": "Are you sure to process this task?",
+        "fail-to-load-data": "Fail to load data",
+        "unknown-error": "There was an error",
+        "internal-server-error": "Internal server error",
+        "bad-request": "Bad request",
+        "forbiden-request": "Invalid input data",
+        "fail-to-load-all-code": "Fail to load data from allcode",
+        "sum": "Sum",
+        "date-range-invalid": "Date range invalid",
+        "more": "More",
+        "schedule-time": "No examination scheduled",
+        "schedule": "Schedule",
+        "guide": "Choose and reservation (free)",
+        "address-clinic": "Examination address",
+        "price": "Examination price",
+        "btn": {
+            "see-detail": "See detail",
+            "hide": "Hide"
+        },
+        "payment": "Payment method"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "userpass-wrong": "Invalid username or password!"
+    },
+    "admin": {
+        "account": {
+            "header": "Manage accounts",
+            "manage-User": "Manage User",
+            "manage-User-Redux": "Manage User Redux",
+            "manage-Doctor": "Manage Doctor",
+            "manage-Admin": "Manage Admin"
+        },
+        "clinic": {
+            "header": "Manage clinic"
+        },
+        "specialty": {
+            "header": "Manage specialty"
+        },
+        "handbook": {
+            "header": "Manage handbook"
+        }
+    },
+    "doctor": {
+        "title": "Doctor",
+        "header": "Manage account",
+        "manage-schedule": "Manage schedule",
+        "manage-patient": "Manage patient",
+        "choose-doctor": "Choose doctor",
+        "choose-time": "Choose time",
+        "name-clinic": "Clinic name",
+        "price": "Price",
+        "payment": "Payment",
+        "address-clinic": "Clinic address",
+        "province": "Province",
+        "infor": "Information",
+        "specialty": "Specialty",
+        "clinic": "Clinic",
+        "note": "Note",
+        "btn": {
+            "save": "Save",
+            "create": "Create"
+        }
+    },
+    "booking-modal": {
+        "patient-name": "Full name",
+        "email": "Email",
+        "phone": "Phone number",
+        "birth": "Date of birth",
+        "gender": "Sex",
+        "address": "Address",
+        "reason": "Reason",
+        "payment-method": {
+            "title1": "Payment method",
+            "title2": "Method"
+        },
+        "price": "Price",
+        "fee": "Fee",
+        "free": "Free",
+        "total": "Total",
+        "btn": {
+            "cancel": "Cancel",
+            "booking": "Booking"
+        }
+    },
+    "remedy-modal": {
+        "btn": {
+            "cancel": "Cancel",
+            "confirm": "Confirm"
+        }
+    },
+    "manage-user": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "address": "Address",
+        "gender": "Sex",
+        "role": "Role",
+        "position": "Position",
+        "phone": "Phone number",
+        "prevImg": "Upload",
+        "submit": "Save"
+    },
+    "manage-section": {
+        "goodDoctor": "Doctor featured last week",
+        "popular-specialties": "Popular specialties",
+        "outstanding-medical-facilities": "Outstanding medical facilities",
+        "handbook": "Handbooks",
+        "media-talks-about-bookingcare": "Media talks about Bookingcare"
+    }
+}

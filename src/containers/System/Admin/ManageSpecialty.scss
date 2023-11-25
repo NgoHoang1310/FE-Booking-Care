@@ -1,0 +1,74 @@
+.manage-specialty__container {
+    margin-top: 30px;
+
+    .manage-specialty__table {
+        .row-specialty {
+            max-height: 10px !important;
+            overflow: hidden;
+
+            td {
+                white-space: nowrap;
+                overflow-x: hidden;
+
+            }
+        }
+    }
+
+    .manage-specialty__name {
+        width: 50%;
+        margin: 0 8px;
+
+        .manage-specialty__name--heading {
+            display: block;
+        }
+
+        .manage-specialty__name--input {
+            width: 100%;
+            margin-top: 4px;
+        }
+    }
+
+    .manage-specialty__image {
+        width: 50%;
+        margin: 0 8px;
+
+        .manage-specialty__image--heading {
+            display: block;
+        }
+
+        .manage-specialty__image--input {
+            width: 100%;
+            margin-top: 4px;
+        }
+    }
+
+    .manage-specialty__markdown {
+        margin-top: 20px;
+    }
+
+    .manage-specialty__btn--cancel {
+        display: inline-block;
+        background-color: #337ab7;
+        border: none;
+        padding: 8px 12px;
+        margin: 8px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .manage-specialty__btn--save {
+        display: inline-block;
+        background-color: #ffc419;
+        border: none;
+        padding: 8px 12px;
+        margin: 8px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #26aa99;
+            transition: all ease .125s;
+
+        }
+    }
+}

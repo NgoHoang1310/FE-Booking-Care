@@ -1,0 +1,30 @@
+.specialty-container {
+    background-color: #eeeeee;
+    padding: 8px 0;
+
+    .specialty-info {
+        border: 1px solid #ccc;
+        margin-top: 75px;
+    }
+
+    .specialty-doctor {
+        display: flex;
+        max-width: 1200px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 0 16px;
+        border-radius: 10px;
+
+        .specialty-doctor__profile {
+            width: 60%;
+            margin-top: 10px;
+        }
+
+        .specialty-doctor__schedule {
+            margin-left: 8px;
+            width: 40%;
+        }
+    }
+}

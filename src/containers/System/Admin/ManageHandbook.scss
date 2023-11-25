@@ -1,0 +1,97 @@
+.manage-handbook__container {
+    margin-top: 30px;
+    margin-left: 8px;
+
+    .manage-handbook__table {
+        height: 300px;
+        overflow-y: auto;
+
+        .row-handbook {
+            max-height: 10px !important;
+            overflow: hidden;
+
+            td {
+                white-space: nowrap;
+                overflow-x: hidden;
+
+            }
+        }
+    }
+
+    .manage-handbook__name {
+        // width: 50%;
+
+        .manage-handbook__name--heading {
+            display: block;
+        }
+
+        .manage-handbook__name--input {
+            width: 100%;
+            margin-top: 4px;
+        }
+    }
+
+    .manage-handbook__image {
+        // width: 50%;
+        margin-top: 4px;
+
+        .manage-handbook__image--heading {
+            display: block;
+        }
+
+        .manage-handbook__image--input {
+            width: 100%;
+            margin-top: 4px;
+        }
+    }
+
+    .manage-handbook__author {
+        // width: 50%;
+
+        .manage-handbook__author--heading {
+            display: block;
+        }
+
+        .manage-handbook__author--input {
+            width: 100%;
+            margin-top: 4px;
+        }
+    }
+
+    .manage-handbook__date-picked {
+        .date-picker {
+            margin-top: 4px;
+        }
+    }
+
+    .manage-handbook__markdown {
+        margin-top: 20px;
+    }
+
+    .manage-handbook__btn--cancel {
+        display: inline-block;
+        background-color: #337ab7;
+        border: none;
+        padding: 8px 12px;
+        margin: 8px;
+        color: white;
+        border-radius: 10px;
+
+    }
+
+    .manage-handbook__btn--save {
+        display: inline-block;
+        background-color: #ffc419;
+        border: none;
+        padding: 8px 12px;
+        margin: 8px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #26aa99;
+            transition: all ease .125s;
+
+        }
+    }
+}

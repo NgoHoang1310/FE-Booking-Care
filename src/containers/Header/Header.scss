@@ -1,0 +1,43 @@
+@import "../../styles/common.scss";
+
+.active{
+    color: orange !important;
+}
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+
+    .header-setting {
+        display: flex;
+        align-items: center;
+
+        .header-languages {
+            margin-right: 8px;
+
+            .language-vn{
+                margin-right: 4px;
+            }
+        }
+    }
+
+}

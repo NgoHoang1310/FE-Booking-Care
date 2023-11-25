@@ -1,0 +1,60 @@
+.doctor-schedule {
+    width: 100%;
+    margin-top: 24px;
+    height: 200px;
+
+    .doctor-schedule__dropdown {
+        max-width: 170px;
+        border-bottom: 1px solid #5555;
+
+        .doctor-schedule__dropdown--selected {}
+    }
+
+    .doctor-schedule__timetable {
+
+        .doctor-schedule__timetable--heading {
+            padding: 10px 0;
+
+            span {
+                padding: 4px 4px 4px 0;
+            }
+        }
+
+        .doctor-schedule__list {
+            padding: 0;
+            margin-left: -4px;
+
+            .message {
+                margin-left: 8px;
+                font-style: italic;
+                color: #5555;
+            }
+        }
+
+        .doctor-schedule__item {
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            background-color: #fff8ae;
+            width: 20%;
+            padding: 8px 0;
+            margin: 4px;
+            list-style: none;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color linear 0.125s;
+
+            &:hover {
+                background-color: #33b0e3;
+                color: white;
+            }
+        }
+    }
+
+    .doctor-schedule__guide {
+        font-size: 12px;
+        font-weight: 400;
+        color: #333;
+    }
+
+}

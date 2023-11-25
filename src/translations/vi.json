@@ -1,0 +1,167 @@
+{
+    "homeHeader": {
+        "specialist": "Chuyên khoa",
+        "findDoctorsBySpecialty": "Tìm bác sĩ theo chuyên khoa",
+        "healthFacilities": "Cơ sở y tế",
+        "clinic": "Chọn bệnh viện phòng khám",
+        "doctors": "Bác sĩ",
+        "greatestDoctor": "Chọn bác sĩ giỏi",
+        "examinationPackage": "Gói khám",
+        "generalHealth": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "inputPlaceHolder": "search doctor"
+    },
+    "options": {
+        "specialist1": "Khám",
+        "specialist2": "chuyên khoa",
+        "remoteExamination1": "Khám ",
+        "remoteExamination2": "từ xa",
+        "generalExamination1": "Khám",
+        "generalExamination2": "tổng quát",
+        "medicalTests1": "Xét nghiệm",
+        "medicalTests2": "y học",
+        "mentalHealth1": "Sức khỏe ",
+        "mentalHealth2": "tinh thần ",
+        "dentist1": "Khám",
+        "dentist2": "nha khoa",
+        "examinationPackage1": "Gói",
+        "examinationPackage2": "phẫu thuật",
+        "diabetes1": "Sống khỏe",
+        "diabetes2": "tiểu đường",
+        "healthTest1": "Bài test",
+        "healthTest2": "sức khỏe",
+        "nearHome1": "Y tế ",
+        "nearHome2": "gần bạn"
+    },
+    "common": {
+        "add": "Thêm",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "decentralize": "Phân quyền",
+        "close": "Đóng",
+        "save": "Lưu",
+        "refresh": "Refresh",
+        "accept": "Chấp nhận",
+        "confirm": "Xác nhận",
+        "confirm-this-task": "Bạn có chắc chắn thực hiện tác vụ này?",
+        "fail-to-load-data": "Không thể tải về dữ liệu",
+        "unknown-error": "Có lỗi xảy ra",
+        "internal-server-error": "Lỗi kết nối",
+        "bad-request": "Yêu cầu không hợp lệ",
+        "forbiden-request": "Thông tin truyền vào không hợp lệ",
+        "fail-to-load-all-code": "Không thể tải về dữ liệu allcode",
+        "sum": "Tổng",
+        "date-range-invalid": "Khoảng thời gian không hợp lệ",
+        "more": "Xem thêm",
+        "schedule-time": "Không có lịch khám nào",
+        "schedule": "Lịch khám",
+        "guide": "Chọn và đặt lịch (Miễn phí)",
+        "address-clinic": "Địa chỉ phòng khám",
+        "price": "Giá khám",
+        "btn": {
+            "see-detail": "Xem chi tiết",
+            "hide": "Thu gọn"
+        },
+        "payment": "Phương thức thanh toán"
+    },
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!"
+    },
+    "admin": {
+        "account": {
+            "header": "Quản lí tài khoản",
+            "manage-User": "Quản lí người dùng",
+            "manage-User-Redux": "Quản lí người dùng Redux",
+            "manage-Doctor": "Quản lí bác sĩ",
+            "manage-Admin": "Quản lí quản trị"
+        },
+        "clinic": {
+            "header": "Quản lí phòng khám"
+        },
+        "specialty": {
+            "header": "Quản lí chuyên khoa"
+        },
+        "handbook": {
+            "header": "Quản lí cẩm nang"
+        }
+    },
+    "doctor": {
+        "title": "Bác sĩ",
+        "header": "Quản lí tài khoản",
+        "manage-schedule": "Quản lí lịch khám",
+        "manage-patient": "Quản lí bệnh nhân",
+        "choose-time": "Chọn thời gian ",
+        "choose-doctor": "Chọn bác sĩ",
+        "name-clinic": "Tên phòng khám",
+        "price": "Giá khám",
+        "payment": "Phương thức thanh toán",
+        "address-clinic": "Địa chỉ phòng khám",
+        "province": "Tỉnh thành",
+        "infor": "Thông tin",
+        "specialty": "Chuyên khoa",
+        "clinic": "Cơ sở y tế",
+        "note": "Ghi chú",
+        "btn": {
+            "save": "Lưu thông tin",
+            "create": "Thêm thông tin"
+        }
+    },
+    "booking-modal": {
+        "patient-name": "Họ và tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "birth": "Ngày sinh",
+        "gender": "Giới tính",
+        "address": "Địa chỉ",
+        "reason": "Lí do khám",
+        "payment-method": {
+            "title1": "Hình thức thanh toán",
+            "title2": "Thanh toán"
+        },
+        "price": "Giá khám",
+        "fee": "Phí đặt lịch",
+        "free": "Miễn phí",
+        "total": "Tổng cộng",
+        "btn": {
+            "cancel": "Hủy",
+            "booking": "Đặt lịch"
+        }
+    },
+    "remedy-modal": {
+        "btn": {
+            "cancel": "Hủy",
+            "confirm": "Xác nhận"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "firstName": "Họ",
+        "lastName": "Tên",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Vai trò",
+        "position": "Vị trí",
+        "phone": "Số điện thoại",
+        "prevImg": "Tải ảnh lên",
+        "submit": "Lưu"
+    },
+    "manage-section": {
+        "goodDoctor": "Bác sĩ nổi bật tuần qua",
+        "popular-specialties": "Chuyên khoa phổ biến",
+        "outstanding-medical-facilities": "Cơ sở y tế nổi bật",
+        "handbook": "Cẩm nang",
+        "media-talks-about-bookingcare": "Truyền thông nói về Booking Care"
+    }
+}

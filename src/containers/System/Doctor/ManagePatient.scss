@@ -1,0 +1,33 @@
+.manage-patient {
+
+    .manage-patient__heading {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .manage-patient__date {
+        margin: 0 16px;
+
+        .manage-patient__date--picker {
+            width: 20%;
+            padding: 8px;
+        }
+    }
+
+    .manage-patient__table {
+        margin: 16px;
+
+        .confirm-btn {
+            border: none;
+            padding: 8px;
+            background-color: #62ccd9;
+            color: white;
+            border-radius: 10px;
+            transition: all ease-in 0.125s;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}

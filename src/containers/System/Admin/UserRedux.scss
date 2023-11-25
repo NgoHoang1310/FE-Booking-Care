@@ -1,0 +1,15 @@
+.previewImg-Btn{
+    background-color: #ccc;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.previewImg-wrapper{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    // background-image: url(../../../assets/doctor/doctor-nurse.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

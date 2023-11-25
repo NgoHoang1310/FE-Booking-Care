@@ -1,0 +1,64 @@
+.manage-schedule-container {
+
+    .manage-schedule__title {
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .manage-schedule__form {
+        display: flex;
+        margin-top: 24px;
+        justify-content: space-evenly;
+
+        .manage-schedule__selected {}
+
+        .manage-schedule__date-picked {
+
+            .date-picker {
+                width: 100%;
+                border: 1px solid #ccc;
+                line-height: 36px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .manage-schedule__time {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .manage-schedule__time--list {
+            border: 1 solid #5555;
+            background-color: #f9f9f9;
+            padding: 32px 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+
+
+        }
+
+        .manage-schedule__time--item {
+            display: block;
+            margin: 4px;
+            width: 20%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid #ccc;
+        }
+
+        .btn-save {
+            width: 20%;
+            margin: 8px auto;
+            border-radius: 5px;
+
+        }
+    }
+}
